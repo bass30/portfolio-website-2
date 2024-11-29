@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jayce Bass - Portfolio</title>
+    <title>Your Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -26,11 +26,13 @@
     <main>
         <section class="hero">
             <div class="hero-content">
-                <h1>Jayce Bass</h1>
-                <h2>Communication</h2>
-                <h3>Texas A&M University</h3>
+                <h1>[Jayce Bass]</h1>
+                <h2>[Communication]</h2>
+                <h3>[Texas A&M University]</h3>
                 <div class="hero-image">
-                    <img src="assets/profile.png" alt="Professional headshot" class="profile-image">
+                    <img src="assets/profile.jpg" alt="Professional headshot" class="profile-image"><img src="assets/profile.png" alt="Professional headshot" class="profile-image"><img src="assets/profile.png" alt="Professional headshot" class="profile-image">To github.com:bass30/portfolio-website-2.git
+                       23466ce..06b3b9d  main -> main
+                    
                 </div>
             </div>
         </section>
@@ -51,7 +53,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Jayce Bass. All rights reserved.</p>
+            <p>&copy; 2024 [Your Name]. All rights reserved.</p>
         </div>
     </footer>
 
