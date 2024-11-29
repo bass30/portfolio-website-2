@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .features-section {
+            padding: 120px 0 60px;
+        }
+        
+        .feature-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+            overflow: hidden;
+        }
+        
+        .feature-content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 30px;
+        }
+        
+        .feature-image {
+            height: 100%;
+            min-height: 300px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .feature-text {
+            padding: 30px;
+        }
+        
+        .feature-text h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+        
+        .feature-text p {
+            margin-bottom: 15px;
+        }
+        
+        @media (max-width: 768px) {
+            .feature-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .feature-image {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="features.html" class="active">Features</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <section class="features-section">
+            <div class="container">
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-image" style="background-image: url('assets/communication.jpg');"></div>
+                        <div class="feature-text">
+                            <h2>Communication</h2>
+                            <p>[Write about your communication skills and experiences]</p>
+                            <p>Real-life example: [Provide a specific example]</p>
+                            <p>What I learned: [Describe your learning outcomes]</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-image" style="background-image: url('assets/critical-thinking.jpg');"></div>
+                        <div class="feature-text">
+                            <h2>Critical Problem Solving</h2>
+                            <p>[Write about your problem-solving skills and approaches]</p>
+                            <p>Real-life example: [Provide a specific example]</p>
+                            <p>What I learned: [Describe your learning outcomes]</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-image" style="background-image: url('assets/collaboration.jpg');"></div>
+                        <div class="feature-text">
+                            <h2>Collaboration</h2>
+                            <p>[Write about your teamwork and collaborative experiences]</p>
+                            <p>Real-life example: [Provide a specific example]</p>
+                            <p>What I learned: [Describe your learning outcomes]</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-image" style="background-image: url('assets/culture.jpg');"></div>
+                        <div class="feature-text">
+                            <h2>Culture</h2>
+                            <p>[Write about your cultural awareness and experiences]</p>
+                            <p>Real-life example: [Provide a specific example]</p>
+                            <p>What I learned: [Describe your learning outcomes]</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-image" style="background-image: url('assets/competencies.jpg');"></div>
+                        <div class="feature-text">
+                            <h2>Competencies</h2>
+                            <p>[Write about your technical and professional skills]</p>
+                            <p>Real-life example: [Provide a specific example]</p>
+                            <p>What I learned: [Describe your learning outcomes]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

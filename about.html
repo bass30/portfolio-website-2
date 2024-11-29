@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .about-section {
+            padding: 120px 0 60px;
+        }
+        
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        
+        .about-text h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+        
+        .about-text p {
+            margin-bottom: 15px;
+        }
+        
+        .about-image img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .goals-section {
+            background-color: var(--light-bg);
+            padding: 60px 0;
+        }
+        
+        .goals-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        
+        .goal-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .goal-card h3 {
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+        }
+        
+        @media (max-width: 768px) {
+            .about-content, .goals-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <section class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <p>[Write about who you are and your background]</p>
+                        <p>My passions include [List your passions and interests]</p>
+                        <p>I am particularly interested in [Specific areas of interest in your field]</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/about-placeholder.jpg" alt="About Me Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="goals-section">
+            <div class="container">
+                <h2>My Goals</h2>
+                <div class="goals-container">
+                    <div class="goal-card">
+                        <h3>Short-term Goals</h3>
+                        <ul>
+                            <li>[Short-term goal 1]</li>
+                            <li>[Short-term goal 2]</li>
+                            <li>[Short-term goal 3]</li>
+                        </ul>
+                    </div>
+                    <div class="goal-card">
+                        <h3>Long-term Goals</h3>
+                        <ul>
+                            <li>[Long-term goal 1]</li>
+                            <li>[Long-term goal 2]</li>
+                            <li>[Long-term goal 3]</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
