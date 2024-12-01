@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Portfolio</title>
+    <title>About Me - Jayce Bass Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
@@ -12,10 +12,9 @@
         }
         
         .about-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
         }
         
         .about-text h2 {
@@ -25,12 +24,7 @@
         
         .about-text p {
             margin-bottom: 15px;
-        }
-        
-        .about-image img {
-            width: 100%;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            line-height: 1.6;
         }
         
         .goals-section {
@@ -57,7 +51,7 @@
         }
         
         @media (max-width: 768px) {
-            .about-content, .goals-container {
+            .goals-container {
                 grid-template-columns: 1fr;
             }
         }
@@ -85,12 +79,9 @@
                 <div class="about-content">
                     <div class="about-text">
                         <h2>About Me</h2>
-                        <p>[My name is Jayce Bass and I am a student at Texas A&M University class of 2027. I was born and raised in San Angelo, Texas and come from a family of aggies. I am currently majoring in Communications.]</p>
-                        <p>My passions include [My passions are communication, critical problem solving, collaboration, culture, and competencies]</p>
-                        <p>I am particularly interested in [the field of communications and how the world interacts with media.]</p>
-                    </div>
-                    <div class="about-image">
-                        <img src="assets/about-placeholder.jpg" alt="About Me Image">
+                        <p>My name is Jayce Bass and I am a student at Texas A&M University class of 2027. I was born and raised in San Angelo, Texas and come from a family of aggies. I am currently majoring in Communications.</p>
+                        <p>My passions include communication, critical problem solving, collaboration, culture, and competencies.</p>
+                        <p>I am particularly interested in the field of communications and how the world interacts with media.</p>
                     </div>
                 </div>
             </div>
@@ -103,19 +94,20 @@
                     <div class="goal-card">
                         <h3>Short-term Goals</h3>
                         <ul>
-                            <li>[One of my main goals is to graduate college form the Texas A&M University.]</li>
-                            <li>[Find employment in the media industry]</li>
-                            <li>[Gain experience in the media industry]</li>
+                            <li>Excel in my communication courses</li>
+                            <li>Gain practical experience through internships</li>
+                            <li>Develop strong networking skills</li>
+                            <li>Build a professional portfolio</li>
                         </ul>
                     </div>
                     <div class="goal-card">
                         <h3>Long-term Goals</h3>
                         <ul>
-                            <li>[Become a pioneer in the media industry]</li>
-                            <li>[Work at a company that appreciates my skills and effort]</li>
-                            <li>[Continue to learn and grow in the media industry]</li>
+                            <li>Graduate with honors in Communications</li>
+                            <li>Secure a position in a leading media company</li>
+                            <li>Develop expertise in digital communication</li>
+                            <li>Make meaningful contributions to the field</li>
                         </ul>
-
                     </div>
                 </div>
             </div>
@@ -124,7 +116,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 [Jayce Bass]. All rights reserved.</p>
+            <p>&copy; 2024 Jayce Bass. All rights reserved.</p>
         </div>
     </footer>
 
